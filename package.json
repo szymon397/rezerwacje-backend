@@ -1,0 +1,24 @@
+{
+  "name": "photo-scheduler-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Photo Scheduler application",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
